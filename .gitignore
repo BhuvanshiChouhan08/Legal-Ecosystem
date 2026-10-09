@@ -1,0 +1,25 @@
+# Dependencies and generated build output
+**/node_modules/
+client/dist/
+client/.dist/
+.dist/
+**/coverage/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# User uploaded documents and runtime data
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs and local tooling
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
